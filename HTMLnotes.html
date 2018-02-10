@@ -1,0 +1,80 @@
+<!-- Mi primer comentario en HTML :'v -->
+<!--  
+    
+DECLARATION:    
+            <element attribute=value > text </element>
+
+MOST COMMON ATTRIBUTES: (http://www.scriptingmaster.com/html/HTML-terms-glossary.asp)
+-id: identifies element
+-class: classifies "
+-src: source for content
+-href: hyperlink reference
+
+STRUCTURAL ELEMENTS: (https://dev.opera.com/articles/new-structural-elements-in-html5/)
+- <header>: Used to contain the header of a site.
+- <footer>: Contains the footer of a site.
+- <nav>: Contains the navigation functionality for the page.
+- <article>: Contains a standalone piece of content that would make sense if syndicated as an RSS item, for example a news item.
+- <section>: Used to either group different articles into different purposes or subjects, or to define the different sections of a single article.
+- <time>: Used for marking up times and dates.
+- <aside>: Defines a block of content that is related to the main content around it, but not central to the flow of it. 
+- <hgroup>: Used to wrap more than one heading if you only want it to count as a single heading in the page's heading structure.
+- <figure> and <figcaption>: Used to encapsulate a figure as a single item, and contain a caption for the figure, respectively.
+
+QUESTION TERMS:
+- W3C Code Validation: coding autovalidation?
+
+LINKS:
+https://www.nngroup.com/articles/title-attribute/ (Using the Title Attribute to Help Users Predict Where They Are Going)
+http://boagworld.com/dev/semantic-code-what-why-how/ (Code semantics)
+https://www.w3schools.com/tags/default.asp    (HTLML references)
+-->
+
+<!DOCTYPE html> <!-- https://rolandocaldas.com/html5/doctype-en-html5 -->
+
+<html>
+    <head> <!-- Title, external files, metadata... https://www.thoughtco.com/metadata-definition-and-examples-1019177 -->
+        <meta charset="utf8"> <!-- search info about charset -->
+        <title> Discovering China </title>
+        <link rel="stylesheet" href="cssnotes.css">
+    </head>
+    <body > <!-- visible part -->
+        <div class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+        
+        <div>
+        <h1> 
+            Chinese Mid-Autumn Festival 
+        </h1>
+        <p> 
+            The legend of Chang'e & Houyi the archer 
+        </p>
+            <header>
+                <h1>
+                    Brief stories series
+                </h1>
+                <h3>
+                    Chinese traditions
+                </h3>
+            </header>
+            <section>
+                <p>
+                    The Mid-Autumn Festival is a harvest festival celebrated by  Chinese  people. 
+                    The festival is held on the 15th day of the 8th month of the lunar calendar with full moon at night,
+                    corresponding to late September to early October of the Gregorian calendar with a full moon at night.
+                </p>
+                          <img src="./IMG/mooncakes1.gif" id="img1">
+                <p id=moontext>
+                    <a href="http://www.straitstimes.com/lifestyle/food/taste-of-tradition-teochew-hainanese-and-hokkien-mooncakes">
+                        Mooncakes 
+                    </a>
+                        have also appeared in western conuntries as exotic sweet desserts.
+                </p>
+            </section>
+        </div>
+    </body>
+</html>
